@@ -11,6 +11,7 @@ import {
   Heart,
   Instagram,
   Menu,
+  Phone,
   Play,
   ShieldCheck,
   Star,
@@ -674,6 +675,15 @@ function CheckoutSection() {
                 <Check className="w-4 h-4 text-primary" /> Money-back guarantee
               </span>
             </div>
+            <div className="mt-4 flex items-center gap-2 text-sm text-muted-foreground">
+              <Phone className="w-4 h-4 text-primary" />
+              <span>
+                Questions? Call us:{" "}
+                <span className="text-foreground font-medium">
+                  +91 86080 35953
+                </span>
+              </span>
+            </div>
           </FadeUp>
 
           <FadeUp delay={0.2}>
@@ -744,7 +754,7 @@ function Footer() {
       icon: <Twitter className="w-5 h-5" />,
     },
     {
-      href: "https://instagram.com",
+      href: "https://www.instagram.com/m.s_editz7?igsh=MXgzMGJ5cjkweWE2OA==",
       label: "Instagram",
       icon: <Instagram className="w-5 h-5" />,
     },
@@ -786,6 +796,12 @@ function Footer() {
                   {icon}
                 </a>
               ))}
+            </div>
+            <div className="flex items-center gap-2 mt-4">
+              <Phone className="w-4 h-4 text-primary flex-shrink-0" />
+              <span className="text-muted-foreground text-sm">
+                +91 86080 35953
+              </span>
             </div>
           </div>
 
